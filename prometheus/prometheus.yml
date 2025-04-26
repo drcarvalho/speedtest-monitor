@@ -1,0 +1,12 @@
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['prometheus:9090']
+  
+  - job_name: 'speedtest'
+    static_configs:
+      - targets: ['speedtest-exporter:9516']
+#    scrape_interval: 15m
+#    scrape_timeout: 10m  
+    scrape_interval: 200s
+    scrape_timeout: 50s
