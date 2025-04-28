@@ -1,4 +1,4 @@
-# Speedtest Exporter com Prometheus e Grafana
+# Monitore sua internet com SpeedTest, Prometheus e Grafana
 
 Este repositório contém a configuração para um sistema de monitoramento de velocidade de internet utilizando o **Speedtest Exporter**, **Prometheus** e **Grafana**. O Speedtest Exporter coleta as métricas de download, upload e latência de ping da sua conexão de internet e as expõe para o Prometheus. O Grafana é usado para visualizar essas métricas.
 
@@ -7,7 +7,7 @@ Este repositório contém a configuração para um sistema de monitoramento de v
 - **Docker**: Utilizado para orquestrar os containers do Speedtest Exporter, Prometheus e Grafana.
 - **Speedtest CLI**: Usado para realizar os testes de velocidade de internet.
 - **Prometheus**: Coleta e armazena as métricas expostas pelo Speedtest Exporter.
-- **Grafana**: Visualiza as métricas armazenadas no Prometheus.
+- **Grafana**: Visualiza as métricas armazenadas no Prometheus. user: admin pwd: admin
 
 ## Estrutura do Repositório
 
